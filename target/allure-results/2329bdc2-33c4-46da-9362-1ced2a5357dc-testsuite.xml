@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510245224601" stop="1510245368888" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510245224958" stop="1510245246138" status="passed">
+            <name>checkIfCmDropdownIsShwonAfterClickOnCmButton</name>
+            <steps>
+                <step start="1510245241009" stop="1510245242212" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245242225" stop="1510245245090" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245245098" stop="1510245246061" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245246066" stop="1510245246122" status="passed">
+                    <name>presentsOfCmDropdown</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245249171" stop="1510245263291" status="passed">
+            <name>checkIfFirstNameFieldCanBeEmptyWhenOtherWithValidData</name>
+            <steps>
+                <step start="1510245255021" stop="1510245255932" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245255935" stop="1510245257566" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245257571" stop="1510245258663" status="passed">
+                    <name>writeNameToFirstNameField[]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245258671" stop="1510245259025" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245259028" stop="1510245259524" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245259527" stop="1510245259926" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245259928" stop="1510245260307" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245260309" stop="1510245260719" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245260722" stop="1510245261515" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245261517" stop="1510245262186" status="passed">
+                    <name>writePhoneNumber[0631750358]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245262189" stop="1510245262815" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245262817" stop="1510245263083" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245263086" stop="1510245263291" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245265125" stop="1510245279308" status="passed">
+            <name>checkIfFirstNameFieldCanBeFiillInWithDigits</name>
+            <steps>
+                <step start="1510245270901" stop="1510245271877" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245271880" stop="1510245273829" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245273833" stop="1510245275026" status="passed">
+                    <name>writeNameToFirstNameField[1234]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245275030" stop="1510245275321" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245275324" stop="1510245275803" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245275805" stop="1510245276187" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245276189" stop="1510245276621" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245276624" stop="1510245277056" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245277058" stop="1510245277778" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245277781" stop="1510245278304" status="passed">
+                    <name>writePhoneNumber[0631750358]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245278311" stop="1510245278950" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245278952" stop="1510245279163" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245279165" stop="1510245279308" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245280898" stop="1510245294805" status="passed">
+            <name>checkIfLastNameFieldCanBeFillInWithDigits</name>
+            <steps>
+                <step start="1510245286758" stop="1510245287638" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245287640" stop="1510245289359" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245289363" stop="1510245290571" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245290573" stop="1510245290849" status="passed">
+                    <name>writeNameToLastNameField[1234]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245290853" stop="1510245291389" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245291395" stop="1510245291831" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245291835" stop="1510245292246" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245292248" stop="1510245292629" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245292631" stop="1510245293372" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245293375" stop="1510245293922" status="passed">
+                    <name>writePhoneNumber[0631750358]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245293924" stop="1510245294424" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245294427" stop="1510245294640" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245294642" stop="1510245294805" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245296322" stop="1510245310420" status="passed">
+            <name>checkIfLastNameFieldCantBeEmpty</name>
+            <steps>
+                <step start="1510245302602" stop="1510245303453" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245303455" stop="1510245305150" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245305153" stop="1510245306384" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245306387" stop="1510245306544" status="passed">
+                    <name>writeNameToLastNameField[]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245306546" stop="1510245307074" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245307077" stop="1510245307451" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245307453" stop="1510245307862" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245307864" stop="1510245308238" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245308241" stop="1510245308924" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245308926" stop="1510245309439" status="passed">
+                    <name>writePhoneNumber[0631750358]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245309441" stop="1510245309994" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245309997" stop="1510245310202" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245310204" stop="1510245310419" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245312056" stop="1510245325664" status="passed">
+            <name>checkIfLastNameFieldCantBeWithAFewSpaces</name>
+            <steps>
+                <step start="1510245317785" stop="1510245318711" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245318716" stop="1510245321313" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245321317" stop="1510245321626" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245321629" stop="1510245321957" status="passed">
+                    <name>writeNameToLastNameField[          ]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245321961" stop="1510245322402" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245322405" stop="1510245322778" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245322781" stop="1510245323180" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245323183" stop="1510245323561" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245323563" stop="1510245324259" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245324261" stop="1510245324772" status="passed">
+                    <name>writePhoneNumber[0631750358]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245324774" stop="1510245325294" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245325297" stop="1510245325526" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245325528" stop="1510245325663" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245327340" stop="1510245340506" status="passed">
+            <name>checkIfPhoneFieldCantBeEmptyWheAllValid</name>
+            <steps>
+                <step start="1510245332834" stop="1510245333675" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245333677" stop="1510245335444" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245335448" stop="1510245336683" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245336685" stop="1510245336968" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245336971" stop="1510245337425" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245337427" stop="1510245337837" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245337845" stop="1510245338222" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245338224" stop="1510245338600" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245338602" stop="1510245339294" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245339297" stop="1510245339440" status="passed">
+                    <name>writePhoneNumber[]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245339443" stop="1510245340147" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245340150" stop="1510245340341" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245340343" stop="1510245340506" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245342166" stop="1510245355493" status="passed">
+            <name>checkIfPhoneFieldCantBeWithSpaces</name>
+            <steps>
+                <step start="1510245347826" stop="1510245348698" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245348701" stop="1510245350330" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245350334" stop="1510245351573" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245351575" stop="1510245351860" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245351862" stop="1510245352327" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245352330" stop="1510245352714" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245352717" stop="1510245353096" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245353098" stop="1510245353493" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245353495" stop="1510245354249" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245354251" stop="1510245354547" status="passed">
+                    <name>writePhoneNumber[    ]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245354550" stop="1510245355143" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245355145" stop="1510245355348" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245355351" stop="1510245355493" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510245357183" stop="1510245367120" status="passed">
+            <name>checkProgressBarOfPErsonalInformationPage</name>
+            <steps>
+                <step start="1510245363178" stop="1510245364101" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245364104" stop="1510245364180" status="passed">
+                    <name>checkPresentsOfPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245364180" stop="1510245366868" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245366870" stop="1510245367051" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245367051" stop="1510245367104" status="passed">
+                    <name>checkProgressBarOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510245367104" stop="1510245367120" status="passed">
+                    <name>checkProgressBarOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="17160@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

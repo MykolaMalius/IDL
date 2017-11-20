@@ -1,0 +1,36 @@
+{
+  "testCases" : [ {
+    "uid" : "f503db6324f1f7e",
+    "name" : "checkIfUserCanBeRedirectedToFAQFromContacusAndTurnBack",
+    "title" : "Check if user can be redirected to FAQ from contacus and turn back",
+    "time" : {
+      "start" : 1510223921902,
+      "stop" : 1510223928963,
+      "duration" : 7061
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5bb4f96e21a68423",
+    "name" : "checkIfUserIsRedirectedToPricingFromContactUs",
+    "title" : "Check if user is redirected to pricing from contact us",
+    "time" : {
+      "start" : 1510223928975,
+      "stop" : 1510223943589,
+      "duration" : 14614
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f10dff96887a247f",
+    "name" : "checkIfUserStayOnConatctUsScreenAfterClickingOnContactUs",
+    "title" : "Check if user stay on conatct us screen after clicking on contact us",
+    "time" : {
+      "start" : 1510223943593,
+      "stop" : 1510223953677,
+      "duration" : 10084
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

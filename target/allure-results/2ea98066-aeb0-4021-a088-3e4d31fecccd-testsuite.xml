@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510242241306" stop="1510242264805" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510242241550" stop="1510242261912" status="passed">
+            <name>checkIfLastNameFieldCantBeWithAFewSpaces</name>
+            <steps>
+                <step start="1510242253073" stop="1510242254045" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242254060" stop="1510242255754" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242255769" stop="1510242257014" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242257018" stop="1510242257321" status="passed">
+                    <name>writeNameToLastNameField[          ]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242257325" stop="1510242257992" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242257994" stop="1510242258532" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242258534" stop="1510242259197" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242259201" stop="1510242259583" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242259586" stop="1510242260383" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242260386" stop="1510242260915" status="passed">
+                    <name>writePhoneNumber[0631750358]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242260919" stop="1510242261517" status="passed">
+                    <name>writeEmail[m@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242261522" stop="1510242261750" status="passed">
+                    <name>clickOnCountinueButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510242261752" stop="1510242261896" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="19704@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

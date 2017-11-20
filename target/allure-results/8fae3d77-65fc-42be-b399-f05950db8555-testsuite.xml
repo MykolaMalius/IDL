@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510307212741" stop="1510307233387" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510307212998" stop="1510307230664" status="passed">
+            <name>checkIfBackButtonRediretUserToHomePage</name>
+            <steps>
+                <step start="1510307225794" stop="1510307226852" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510307226872" stop="1510307229526" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510307229535" stop="1510307230553" status="passed">
+                    <name>clickOnBackButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510307230556" stop="1510307230658" status="passed">
+                    <name>checkIfHomeScreenIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="12964@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

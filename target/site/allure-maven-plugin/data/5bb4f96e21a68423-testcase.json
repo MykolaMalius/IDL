@@ -1,0 +1,137 @@
+{
+  "uid" : "5bb4f96e21a68423",
+  "name" : "checkIfUserIsRedirectedToPricingFromContactUs",
+  "title" : "Check if user is redirected to pricing from contact us",
+  "time" : {
+    "start" : 1510223928975,
+    "stop" : 1510223943589,
+    "duration" : 14614
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "417dfb27e6291376",
+    "name" : "Test Suite : IDLTest",
+    "title" : "Test Suite : IDLTest"
+  },
+  "steps" : [ {
+    "name" : "clickOnContactUsButtonOnContactUsPage",
+    "title" : "Click on contact us button on contact us page",
+    "time" : {
+      "start" : 1510223938808,
+      "stop" : 1510223939738,
+      "duration" : 930
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkIfContactUsPageIsPresent",
+    "title" : "Check if contact us page is present",
+    "time" : {
+      "start" : 1510223939745,
+      "stop" : 1510223939885,
+      "duration" : 140
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnPricingButton",
+    "title" : "Click on pricing button",
+    "time" : {
+      "start" : 1510223939889,
+      "stop" : 1510223940831,
+      "duration" : 942
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkIfPricingScreenPresent",
+    "title" : "Check if pricing screen present",
+    "time" : {
+      "start" : 1510223940833,
+      "stop" : 1510223940945,
+      "duration" : 112
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "returnToContactUsPage",
+    "title" : "Return to contact us page",
+    "time" : {
+      "start" : 1510223940948,
+      "stop" : 1510223941202,
+      "duration" : 254
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkIfContactUsPageIsPresent",
+    "title" : "Check if contact us page is present",
+    "time" : {
+      "start" : 1510223941205,
+      "stop" : 1510223941299,
+      "duration" : 94
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Test Suite : IDLTest"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Nazar"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test Suite : IDLTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "16288@Nazar.main(1)"
+  } ],
+  "parameters" : [ ]
+}

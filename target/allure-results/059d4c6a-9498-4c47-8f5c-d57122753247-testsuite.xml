@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510240980411" stop="1510241003638" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510240980577" stop="1510241000655" status="passed">
+            <name>checkProgressBarOfPErsonalInformationPage</name>
+            <steps>
+                <step start="1510240996077" stop="1510240997378" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510240997386" stop="1510240997503" status="passed">
+                    <name>checkPresentsOfPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510240997521" stop="1510241000408" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510241000412" stop="1510241000554" status="passed">
+                    <name>presentsOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510241000554" stop="1510241000619" status="passed">
+                    <name>checkProgressBarOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510241000621" stop="1510241000639" status="passed">
+                    <name>checkProgressBarOfPersonalInformationPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="14772@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

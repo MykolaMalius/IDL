@@ -1,0 +1,10 @@
+com\art\idl\pages\FAQPage.class
+com\art\idl\singleton\TestStepReporter.class
+com\art\idl\pages\ContactUsPage.class
+com\art\idl\pages\GooglePage.class
+com\art\idl\pages\PricingPage.class
+com\art\idl\singleton\SingletonDriver.class
+com\art\idl\singleton\TestExecutionListener.class
+com\art\idl\pageobject\PageObject.class
+com\art\idl\pages\IDLHomePage.class
+com\art\idl\singleton\EnvProperties.class

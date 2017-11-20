@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510308446498" stop="1510308468734" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510308446694" stop="1510308466308" status="broken">
+            <name>checkIfEmailCantBeWithaAFewSpaces</name>
+            <failure>
+                <message>WebDriverException: unknown error: Element &lt;button type="submit" class="btn btn-get btn-continue" ng-click="GetIdlForm.$valid&amp;amp;&amp;amp;processForm()"&gt;...&lt;/button&gt; is not clickable at point (710, 624). Other element would receive the click: &lt;button type="button" ng-class="{hidden: GetIdlForm.$valid}" class="btn btn-get btn-continue btn-top" ng-click="isValid(GetIdlForm.$valid)"&gt;...&lt;/button&gt;
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 84 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Nazar', ip: '192.168.50.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\MF525~1.MAL\AppData\Local\Temp\scoped_dir20004_3268}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 36ad1a455233089d118278a90fafb128</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type="submit" class="btn btn-get btn-continue" ng-click="GetIdlForm.$valid&amp;amp;&amp;amp;processForm()"&gt;...&lt;/button&gt; is not clickable at point (710, 624). Other element would receive the click: &lt;button type="button" ng-class="{hidden: GetIdlForm.$valid}" class="btn btn-get btn-continue btn-top" ng-click="isValid(GetIdlForm.$valid)"&gt;...&lt;/button&gt;
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 84 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Nazar', ip: '192.168.50.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\MF525~1.MAL\AppData\Local\Temp\scoped_dir20004_3268}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 36ad1a455233089d118278a90fafb128
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at com.art.idl.steps.PersonalInformationPage.clickOnCountinueButton(PersonalInformationPage.java:177)
+	at com.art.idl.testsuites.PersonalInformationTest.checkIfEmailCantBeWithaAFewSpaces(PersonalInformationTest.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1510308457993" stop="1510308459067" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                </step>
+                <step start="1510308459082" stop="1510308461994" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                </step>
+                <step start="1510308462003" stop="1510308462391" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                </step>
+                <step start="1510308462394" stop="1510308462656" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                </step>
+                <step start="1510308462659" stop="1510308463268" status="passed">
+                    <name>selectFirstMonth</name>
+                </step>
+                <step start="1510308463270" stop="1510308463768" status="passed">
+                    <name>selectFirstDay</name>
+                </step>
+                <step start="1510308463771" stop="1510308464151" status="passed">
+                    <name>selectFirstYear</name>
+                </step>
+                <step start="1510308464157" stop="1510308464541" status="passed">
+                    <name>selectFirstEyeColor</name>
+                </step>
+                <step start="1510308464545" stop="1510308465248" status="passed">
+                    <name>selectHeight</name>
+                </step>
+                <step start="1510308465252" stop="1510308465780" status="passed">
+                    <name>writePhoneNumber[0931026120]</name>
+                </step>
+                <step start="1510308465783" stop="1510308465994" status="passed">
+                    <name>writeEmail[   ]</name>
+                </step>
+                <step start="1510308465997" stop="1510308466237" status="broken">
+                    <name>clickOnCountinueButton</name>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="9920@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

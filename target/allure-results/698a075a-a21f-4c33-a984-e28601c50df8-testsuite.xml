@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510223921701" stop="1510223953786" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test Suite : IDLTest</name>
+    <title>Test Suite : IDLTest</title>
+    <test-cases>
+        <test-case start="1510223921902" stop="1510223928963" status="passed">
+            <name>checkIfUserCanBeRedirectedToFAQFromContacusAndTurnBack</name>
+            <steps>
+                <step start="1510223922418" stop="1510223924186" status="passed">
+                    <name>clickOnContactUsButtonOnContactUsPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223924199" stop="1510223924373" status="passed">
+                    <name>checkIfContactUsPageIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223924391" stop="1510223925586" status="passed">
+                    <name>clickOnFAQItemOnContactUsPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223925593" stop="1510223925757" status="passed">
+                    <name>presentsOfFAQPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223925760" stop="1510223926143" status="passed">
+                    <name>turnBackFromFAQToContactUs</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223926147" stop="1510223926232" status="passed">
+                    <name>checkIfContactUsPageIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="16288@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510223928975" stop="1510223943589" status="passed">
+            <name>checkIfUserIsRedirectedToPricingFromContactUs</name>
+            <steps>
+                <step start="1510223938808" stop="1510223939738" status="passed">
+                    <name>clickOnContactUsButtonOnContactUsPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223939745" stop="1510223939885" status="passed">
+                    <name>checkIfContactUsPageIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223939889" stop="1510223940831" status="passed">
+                    <name>clickOnPricingButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223940833" stop="1510223940945" status="passed">
+                    <name>checkIfPricingScreenPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223940948" stop="1510223941202" status="passed">
+                    <name>returnToContactUsPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223941205" stop="1510223941299" status="passed">
+                    <name>checkIfContactUsPageIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="16288@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510223943593" stop="1510223953677" status="passed">
+            <name>checkIfUserStayOnConatctUsScreenAfterClickingOnContactUs</name>
+            <steps>
+                <step start="1510223949633" stop="1510223951065" status="passed">
+                    <name>clickOnContactUsButtonOnContactUsPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223951067" stop="1510223951364" status="passed">
+                    <name>checkIfContactUsPageIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223951367" stop="1510223952227" status="passed">
+                    <name>clickOnContactUsButtonOnContactUsPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510223952230" stop="1510223952302" status="passed">
+                    <name>checkIfContactUsPageIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="16288@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510321008915" stop="1510321039224" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510321009111" stop="1510321035737" status="passed">
+            <name>checkIfSystemAllowsToActivateAllCategoriesButtons</name>
+            <steps>
+                <step start="1510321024109" stop="1510321025225" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321025235" stop="1510321027262" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321027271" stop="1510321028839" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321028844" stop="1510321029206" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321029210" stop="1510321029792" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321029795" stop="1510321030243" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321030245" stop="1510321030695" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321030701" stop="1510321031156" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321031161" stop="1510321032005" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321032008" stop="1510321032705" status="passed">
+                    <name>writePhoneNumber[0931308310]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321032708" stop="1510321033268" status="passed">
+                    <name>writeEmail[a@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321033271" stop="1510321033584" status="passed">
+                    <name>clickOnCountinueButtonWhenAllWithValid</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321033588" stop="1510321035150" status="passed">
+                    <name>chooseACategory</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321035154" stop="1510321035312" status="passed">
+                    <name>chooseCCategory</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321035314" stop="1510321035520" status="passed">
+                    <name>chooseDCategory</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510321035524" stop="1510321035729" status="passed">
+                    <name>chooseECategory</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="1740@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

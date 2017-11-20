@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510316171555" stop="1510316711357" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510316171810" stop="1510316708654" status="broken">
+            <name>checkIfLicenseNumberCantBeEmptyWhenAllValid</name>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Nazar', ip: '192.168.50.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\MF525~1.MAL\AppData\Local\Temp\scoped_dir3152_2870}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6b3702c09fbcab5ed195ca34e6009242
+*** Element info: {Using=xpath, value=//button[@class="btn btn-get btn-continue"]}</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Nazar', ip: '192.168.50.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\MF525~1.MAL\AppData\Local\Temp\scoped_dir3152_2870}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6b3702c09fbcab5ed195ca34e6009242
+*** Element info: {Using=xpath, value=//button[@class="btn btn-get btn-continue"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at com.art.idl.steps.OriginalDriverLicensePage.clickOnCountinueButtonWhenAllWithValid(OriginalDriverLicensePage.java:161)
+	at com.art.idl.testsuites.OriginalDriverLicenseTest.checkIfLicenseNumberCantBeEmptyWhenAllValid(OriginalDriverLicenseTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1510316185883" stop="1510316187388" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                </step>
+                <step start="1510316187394" stop="1510316190495" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                </step>
+                <step start="1510316190509" stop="1510316190871" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                </step>
+                <step start="1510316190877" stop="1510316191177" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                </step>
+                <step start="1510316191179" stop="1510316191898" status="passed">
+                    <name>selectFirstMonth</name>
+                </step>
+                <step start="1510316191902" stop="1510316192317" status="passed">
+                    <name>selectFirstDay</name>
+                </step>
+                <step start="1510316192320" stop="1510316192745" status="passed">
+                    <name>selectFirstYear</name>
+                </step>
+                <step start="1510316192750" stop="1510316193211" status="passed">
+                    <name>selectFirstEyeColor</name>
+                </step>
+                <step start="1510316193214" stop="1510316193999" status="passed">
+                    <name>selectHeight</name>
+                </step>
+                <step start="1510316194004" stop="1510316194631" status="passed">
+                    <name>writePhoneNumber[0931308310]</name>
+                </step>
+                <step start="1510316194634" stop="1510316195236" status="passed">
+                    <name>writeEmail[a@gmail.com]</name>
+                </step>
+                <step start="1510316195238" stop="1510316195481" status="passed">
+                    <name>clickOnCountinueButtonWhenAllWithValid</name>
+                </step>
+                <step start="1510316195485" stop="1510316196856" status="passed">
+                    <name>checkIfOriginalDriverLicenseIsPresent</name>
+                </step>
+                <step start="1510316196871" stop="1510316197150" status="passed">
+                    <name>writeLicenseNumber[]</name>
+                </step>
+                <step start="1510316197152" stop="1510316197845" status="passed">
+                    <name>chooseFirstMonthExpirationDate</name>
+                </step>
+                <step start="1510316197849" stop="1510316198300" status="passed">
+                    <name>chooseFirstDayExpirationDate</name>
+                </step>
+                <step start="1510316198302" stop="1510316198652" status="passed">
+                    <name>chooseFirstYearExpirationDate</name>
+                </step>
+                <step start="1510316198655" stop="1510316199019" status="passed">
+                    <name>chooseFirstIssueMonth</name>
+                </step>
+                <step start="1510316199021" stop="1510316199398" status="passed">
+                    <name>chooseFirstIssueDate</name>
+                </step>
+                <step start="1510316199400" stop="1510316199763" status="passed">
+                    <name>chooseFirstIssueYear</name>
+                </step>
+                <step start="1510316199765" stop="1510316202917" status="passed">
+                    <name>writeCountryOfDriverLicense[Ukraine]</name>
+                </step>
+                <step start="1510316202919" stop="1510316203283" status="passed">
+                    <name>uploadPhotoOfDriverLicense</name>
+                </step>
+                <step start="1510316704548" stop="1510316708603" status="broken">
+                    <name>clickOnCountinueButtonWhenAllWithValid</name>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="14264@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

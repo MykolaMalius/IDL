@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="com.art.idl.singleton.TestExecutionListener"/>
+    </listeners>
+    <test name="IDLTest">
+        <classes>
+            <class name="com.art.idl.testsuites.ContactUsPageTest" />
+            <class name="com.art.idl.testsuites.FAQPageTest"/>
+            <class name="com.art.idl.testsuites.PricingPageTest"/>
+            <class name="com.art.idl.testsuites.MainPageTest"/>
+            <class name="com.art.idl.testsuites.PersonalInformationTest"/>
+            <class name="com.art.idl.testsuites.OriginalDriverLicenseTest"/>
+        </classes>
+        
+
+    </test>
+
+</suite>

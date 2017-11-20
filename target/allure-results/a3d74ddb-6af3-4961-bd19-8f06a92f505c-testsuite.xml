@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510317691876" stop="1510317735359" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</name>
+    <title>Default Suite : IDL.test.maven-master-841021d8bba2e5895ee8b2212659312fd69acb59</title>
+    <test-cases>
+        <test-case start="1510317692144" stop="1510317732561" status="passed">
+            <name>chooseCategory</name>
+            <steps>
+                <step start="1510317706327" stop="1510317707429" status="passed">
+                    <name>clickOnPricingButtonOnPricingScreen</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317707439" stop="1510317709823" status="passed">
+                    <name>clickOnGetYourIDLButton1yearLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317709830" stop="1510317711189" status="passed">
+                    <name>writeNameToFirstNameField[Alex]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317711194" stop="1510317711527" status="passed">
+                    <name>writeNameToLastNameField[Mason]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317711529" stop="1510317712178" status="passed">
+                    <name>selectFirstMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317712181" stop="1510317712601" status="passed">
+                    <name>selectFirstDay</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317712604" stop="1510317713073" status="passed">
+                    <name>selectFirstYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317713079" stop="1510317713484" status="passed">
+                    <name>selectFirstEyeColor</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317713487" stop="1510317714263" status="passed">
+                    <name>selectHeight</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317714267" stop="1510317714938" status="passed">
+                    <name>writePhoneNumber[0931308310]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317714941" stop="1510317715525" status="passed">
+                    <name>writeEmail[a@gmail.com]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317715527" stop="1510317715796" status="passed">
+                    <name>clickOnCountinueButtonWhenAllWithValid</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317715801" stop="1510317717143" status="passed">
+                    <name>checkIfOriginalDriverLicenseIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317717156" stop="1510317717414" status="passed">
+                    <name>writeLicenseNumber[]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317717416" stop="1510317717981" status="passed">
+                    <name>chooseFirstMonthExpirationDate</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317717985" stop="1510317718407" status="passed">
+                    <name>chooseFirstDayExpirationDate</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317718410" stop="1510317718820" status="passed">
+                    <name>chooseFirstYearExpirationDate</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317718823" stop="1510317719228" status="passed">
+                    <name>chooseFirstIssueMonth</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317719231" stop="1510317719648" status="passed">
+                    <name>chooseFirstIssueDate</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317719650" stop="1510317720088" status="passed">
+                    <name>chooseFirstIssueYear</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317720091" stop="1510317721002" status="passed">
+                    <name>writeCountryOfDriverLicense[Ukraine]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1510317721004" stop="1510317721447" status="passed">
+                    <name>uploadPhotoOfDriverLicense</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="12112@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

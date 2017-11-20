@@ -1,0 +1,137 @@
+{
+  "uid" : "f503db6324f1f7e",
+  "name" : "checkIfUserCanBeRedirectedToFAQFromContacusAndTurnBack",
+  "title" : "Check if user can be redirected to FAQ from contacus and turn back",
+  "time" : {
+    "start" : 1510223921902,
+    "stop" : 1510223928963,
+    "duration" : 7061
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "417dfb27e6291376",
+    "name" : "Test Suite : IDLTest",
+    "title" : "Test Suite : IDLTest"
+  },
+  "steps" : [ {
+    "name" : "clickOnContactUsButtonOnContactUsPage",
+    "title" : "Click on contact us button on contact us page",
+    "time" : {
+      "start" : 1510223922418,
+      "stop" : 1510223924186,
+      "duration" : 1768
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkIfContactUsPageIsPresent",
+    "title" : "Check if contact us page is present",
+    "time" : {
+      "start" : 1510223924199,
+      "stop" : 1510223924373,
+      "duration" : 174
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnFAQItemOnContactUsPage",
+    "title" : "Click on FAQ item on contact us page",
+    "time" : {
+      "start" : 1510223924391,
+      "stop" : 1510223925586,
+      "duration" : 1195
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "presentsOfFAQPage",
+    "title" : "Presents of FAQ page",
+    "time" : {
+      "start" : 1510223925593,
+      "stop" : 1510223925757,
+      "duration" : 164
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "turnBackFromFAQToContactUs",
+    "title" : "Turn back from FAQ to contact us",
+    "time" : {
+      "start" : 1510223925760,
+      "stop" : 1510223926143,
+      "duration" : 383
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkIfContactUsPageIsPresent",
+    "title" : "Check if contact us page is present",
+    "time" : {
+      "start" : 1510223926147,
+      "stop" : 1510223926232,
+      "duration" : 85
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Test Suite : IDLTest"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Nazar"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test Suite : IDLTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "16288@Nazar.main(1)"
+  } ],
+  "parameters" : [ ]
+}
